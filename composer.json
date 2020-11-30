@@ -23,7 +23,7 @@
         "guzzlehttp/guzzle": "^6.2",
         "ext-curl": "*",
         "ext-gd": "*",
-        "ext-exif": "*"
+        "ext-exif": "*",
         "lazyjsonmapper/lazyjsonmapper": "^1.6.1",
         "guzzlehttp/guzzle": "^6.2",
         "ext-mbstring": "*",
