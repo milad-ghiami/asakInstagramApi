@@ -1,0 +1,43 @@
+{
+    "name": "asakserver/yii2-instagramapi",
+    "description": "Instagram private API PHP",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "milad ghiami",
+            "email": "info@asakserver.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "InstagramAPI\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.6",
+        "guzzlehttp/guzzle": "^6.2",
+        "ext-curl": "*",
+        "ext-gd": "*",
+        "ext-exif": "*"
+        "lazyjsonmapper/lazyjsonmapper": "^1.6.1",
+        "guzzlehttp/guzzle": "^6.2",
+        "ext-mbstring": "*",
+        "ext-zlib": "*",
+        "ext-bcmath": "*",
+        "react/event-loop": "^0.4.3",
+        "react/promise": "^2.5",
+        "react/socket": "^0.8",
+        "binsoul/net-mqtt-client-react": "^0.3.2",
+        "clue/socks-react": "^0.8.2",
+        "clue/http-proxy-react": "^1.1.0",
+        "psr/log": "^1.0",
+        "valga/fbns-react": "^0.1.8",
+        "symfony/process": "^3.4|^4.0",
+        "winbox/args": "1.0.0"
+    }
+}
